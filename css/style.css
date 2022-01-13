@@ -25,6 +25,7 @@ body {
     transform: rotateX(-30deg);
     animation: animate 4s linear infinite;
 }
+/*Animaciones*/
 @keyframes animate {
     0% {
         transform: rotateX(-30deg) rotateY(0deg);
@@ -59,6 +60,7 @@ body {
     background: #222;
     transform: rotateX(90deg) translateZ(150px);
 }
+/*Fin animaciones*/
 .top::before {
     content: '';
     position: absolute;
